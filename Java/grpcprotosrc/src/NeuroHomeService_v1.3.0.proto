@@ -1,0 +1,55 @@
+//import "C:/Users/Lim/git/Shimmer-Java-Android-API/ShimmerDriver/grpcprotosrc/src/LiteProtocolInstructionSet.proto";
+
+syntax = "proto3";
+//import "src/LiteProtocolInstructionSet.proto";
+
+//import "google/protobuf/descriptor.proto";
+import "src/ShimmerGrpcAndOJC.proto";
+
+option java_package = "com.shimmerresearch.managers.grpc.neurohomeservice";
+option java_outer_classname = "ShimmerNeuroHomeService";
+
+package neurohomeservice;
+
+service NeuroHomeService {
+ rpc SetTrialInfo(TrialInfo) returns (shimmerGRPC.CommandStatus){}
+ rpc SetEventMarker(EventMarker) returns (shimmerGRPC.CommandStatus){}
+ rpc SetStimulasTrigger(StimulusTrigger) returns (shimmerGRPC.CommandStatus){}
+ rpc GetDataStream(shimmerGRPC.StreamRequest) returns (stream shimmerGRPC.ObjectCluster2) {}
+
+
+}
+
+message TrialInfo {
+  string message = 1;
+  string trialID = 2;
+  string participantID = 3;
+  string s3Key = 4;
+  string s3SecretKey = 5;
+  string s3Region = 6;
+  string s3PathDestination = 7;
+  string neuroLynQServiceAddress= 8;
+  uint64 neuroLynQServicePort=9;
+  repeated EventMarker eventMarkers = 10;
+  uint64 trialDurationInMS = 11;
+  bool enableDesktopScreenRecorder = 12;
+  string s3Bucket = 13;
+}
+
+message EventMarker {
+  uint64 unixtimestart =1;
+  uint64 markerid = 2;
+  string markername = 3;
+  MarkerType markertype = 4;
+  uint64 unixtimeend =5; //not applicable for pulse
+  enum MarkerType {
+    Pulse = 0;
+    Toggle = 1;
+  }
+
+}
+
+message StimulusTrigger {
+  uint64 unixtime = 1;
+}
+
