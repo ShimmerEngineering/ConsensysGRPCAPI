@@ -151,7 +151,7 @@
             this.textBoxPort.Name = "textBoxPort";
             this.textBoxPort.Size = new System.Drawing.Size(100, 22);
             this.textBoxPort.TabIndex = 4;
-            this.textBoxPort.Text = "50050";
+            this.textBoxPort.Text = "50051";
             this.textBoxPort.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // label3
