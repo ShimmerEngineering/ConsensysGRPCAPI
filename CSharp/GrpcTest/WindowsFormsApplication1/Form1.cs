@@ -90,5 +90,40 @@ namespace WindowsFormsApplication1
         {
 
         }
+
+        private void textBoxAddress_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void groupBox1_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            listView1.Columns.Clear();
+            listView1.Items.Clear();
+            listView1.View = View.Details;
+            listView1.Columns.Add("Name");
+            listView1.Columns.Add("COM port");
+
+            var shimmersInfo = test.ListDevices();
+            var shimmerNames = new List<string>();
+            foreach(var pair in shimmersInfo.ShimmerMap)
+            {
+                var shimmer = pair.Value;
+                shimmerNames.Add(shimmer.Name);
+                listView1.Items.Add(new ListViewItem(new string[] { shimmer.Name, shimmer.UniqueId }));
+            }
+            listView1.Refresh();
+        }
+
+        private void listView1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            string comport = listView1.SelectedItems[0].SubItems[1].Text;
+            test.Connect(comport);
+        }
     }
 }

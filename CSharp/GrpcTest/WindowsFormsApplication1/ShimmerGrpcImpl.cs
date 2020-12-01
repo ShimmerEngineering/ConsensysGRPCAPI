@@ -66,5 +66,12 @@ namespace com.shimmerresearch.grpc
             var req = new ShimmerRequest();
             client.StopStreaming(req);
         }
+
+        public ShimmersInfo ListDevices()
+        {
+            var req = new StringMsg();
+            ShimmersInfo shimmersInfo = client.GetInfoAllShimmers(req);
+            return shimmersInfo;
+        }
     }
 }
