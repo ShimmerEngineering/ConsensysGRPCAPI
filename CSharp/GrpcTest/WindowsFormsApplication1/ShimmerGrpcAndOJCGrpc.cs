@@ -62,6 +62,7 @@ namespace com.shimmerresearch.grpc {
     static readonly grpc::Marshaller<global::com.shimmerresearch.grpc.StringArrayMsg> __Marshaller_shimmerGRPC_StringArrayMsg = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::com.shimmerresearch.grpc.StringArrayMsg.Parser));
     static readonly grpc::Marshaller<global::com.shimmerresearch.grpc.InfoSpans> __Marshaller_shimmerGRPC_InfoSpans = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::com.shimmerresearch.grpc.InfoSpans.Parser));
     static readonly grpc::Marshaller<global::com.shimmerresearch.grpc.EmulatedDevices> __Marshaller_shimmerGRPC_EmulatedDevices = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::com.shimmerresearch.grpc.EmulatedDevices.Parser));
+    static readonly grpc::Marshaller<global::com.shimmerresearch.grpc.BluetoothDevicesDetails> __Marshaller_shimmerGRPC_BluetoothDevicesDetails = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::com.shimmerresearch.grpc.BluetoothDevicesDetails.Parser));
 
     static readonly grpc::Method<global::com.shimmerresearch.grpc.HelloRequest, global::com.shimmerresearch.grpc.HelloReply> __Method_SayHello = new grpc::Method<global::com.shimmerresearch.grpc.HelloRequest, global::com.shimmerresearch.grpc.HelloReply>(
         grpc::MethodType.Unary,
@@ -231,6 +232,13 @@ namespace com.shimmerresearch.grpc {
         __Marshaller_shimmerGRPC_StringMsg,
         __Marshaller_shimmerGRPC_EmulatedDevices);
 
+    static readonly grpc::Method<global::com.shimmerresearch.grpc.StringMsg, global::com.shimmerresearch.grpc.BluetoothDevicesDetails> __Method_GetBluetoothDeviceDetails = new grpc::Method<global::com.shimmerresearch.grpc.StringMsg, global::com.shimmerresearch.grpc.BluetoothDevicesDetails>(
+        grpc::MethodType.Unary,
+        __ServiceName,
+        "GetBluetoothDeviceDetails",
+        __Marshaller_shimmerGRPC_StringMsg,
+        __Marshaller_shimmerGRPC_BluetoothDevicesDetails);
+
     /// <summary>Service descriptor</summary>
     public static global::Google.Protobuf.Reflection.ServiceDescriptor Descriptor
     {
@@ -388,6 +396,17 @@ namespace com.shimmerresearch.grpc {
       }
 
       public virtual global::System.Threading.Tasks.Task<global::com.shimmerresearch.grpc.EmulatedDevices> GetEmulatedDevices(global::com.shimmerresearch.grpc.StringMsg request, grpc::ServerCallContext context)
+      {
+        throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
+      }
+
+      /// <summary>
+      ///Noldus client related
+      /// </summary>
+      /// <param name="request">The request received from the client.</param>
+      /// <param name="context">The context of the server-side call handler being invoked.</param>
+      /// <returns>The response to send back to the client (wrapped by a task).</returns>
+      public virtual global::System.Threading.Tasks.Task<global::com.shimmerresearch.grpc.BluetoothDevicesDetails> GetBluetoothDeviceDetails(global::com.shimmerresearch.grpc.StringMsg request, grpc::ServerCallContext context)
       {
         throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
       }
@@ -887,6 +906,50 @@ namespace com.shimmerresearch.grpc {
       {
         return CallInvoker.AsyncUnaryCall(__Method_GetEmulatedDevices, null, options, request);
       }
+      /// <summary>
+      ///Noldus client related
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The response received from the server.</returns>
+      public virtual global::com.shimmerresearch.grpc.BluetoothDevicesDetails GetBluetoothDeviceDetails(global::com.shimmerresearch.grpc.StringMsg request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return GetBluetoothDeviceDetails(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      ///Noldus client related
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The response received from the server.</returns>
+      public virtual global::com.shimmerresearch.grpc.BluetoothDevicesDetails GetBluetoothDeviceDetails(global::com.shimmerresearch.grpc.StringMsg request, grpc::CallOptions options)
+      {
+        return CallInvoker.BlockingUnaryCall(__Method_GetBluetoothDeviceDetails, null, options, request);
+      }
+      /// <summary>
+      ///Noldus client related
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The call object.</returns>
+      public virtual grpc::AsyncUnaryCall<global::com.shimmerresearch.grpc.BluetoothDevicesDetails> GetBluetoothDeviceDetailsAsync(global::com.shimmerresearch.grpc.StringMsg request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return GetBluetoothDeviceDetailsAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      ///Noldus client related
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The call object.</returns>
+      public virtual grpc::AsyncUnaryCall<global::com.shimmerresearch.grpc.BluetoothDevicesDetails> GetBluetoothDeviceDetailsAsync(global::com.shimmerresearch.grpc.StringMsg request, grpc::CallOptions options)
+      {
+        return CallInvoker.AsyncUnaryCall(__Method_GetBluetoothDeviceDetails, null, options, request);
+      }
       /// <summary>Creates a new instance of client from given <c>ClientBaseConfiguration</c>.</summary>
       protected override ShimmerServerClient NewInstance(ClientBaseConfiguration configuration)
       {
@@ -922,7 +985,8 @@ namespace com.shimmerresearch.grpc {
           .AddMethod(__Method_DockRestoreAutoTasks, serviceImpl.DockRestoreAutoTasks)
           .AddMethod(__Method_GetInfoSpans, serviceImpl.GetInfoSpans)
           .AddMethod(__Method_GetInfoAllShimmers, serviceImpl.GetInfoAllShimmers)
-          .AddMethod(__Method_GetEmulatedDevices, serviceImpl.GetEmulatedDevices).Build();
+          .AddMethod(__Method_GetEmulatedDevices, serviceImpl.GetEmulatedDevices)
+          .AddMethod(__Method_GetBluetoothDeviceDetails, serviceImpl.GetBluetoothDeviceDetails).Build();
     }
 
     /// <summary>Register service method with a service binder with or without implementation. Useful when customizing the  service binding logic.
@@ -955,6 +1019,7 @@ namespace com.shimmerresearch.grpc {
       serviceBinder.AddMethod(__Method_GetInfoSpans, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::com.shimmerresearch.grpc.StringMsg, global::com.shimmerresearch.grpc.InfoSpans>(serviceImpl.GetInfoSpans));
       serviceBinder.AddMethod(__Method_GetInfoAllShimmers, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::com.shimmerresearch.grpc.StringMsg, global::com.shimmerresearch.grpc.ShimmersInfo>(serviceImpl.GetInfoAllShimmers));
       serviceBinder.AddMethod(__Method_GetEmulatedDevices, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::com.shimmerresearch.grpc.StringMsg, global::com.shimmerresearch.grpc.EmulatedDevices>(serviceImpl.GetEmulatedDevices));
+      serviceBinder.AddMethod(__Method_GetBluetoothDeviceDetails, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::com.shimmerresearch.grpc.StringMsg, global::com.shimmerresearch.grpc.BluetoothDevicesDetails>(serviceImpl.GetBluetoothDeviceDetails));
     }
 
   }

@@ -67,68 +67,78 @@ namespace com.shimmerresearch.grpc {
             "IAEoAxIYChBjb25maWdUaW1lUGFyc2VkGBQgASgJEjMKDmllZWU4MDIxNTRJ",
             "bmZvGBUgASgLMhsuc2hpbW1lckdSUEMuSWVlZTgwMjE1NEluZm8aWAoPU2hp",
             "bW1lck1hcEVudHJ5EgsKA2tleRgBIAEoCRI0CgV2YWx1ZRgCIAEoCzIlLnNo",
-            "aW1tZXJHUlBDLlNoaW1tZXJzSW5mby5TaGltbWVySW5mbzoCOAEiUwoOSWVl",
-            "ZTgwMjE1NEluZm8SFAoMcmFkaW9DaGFubmVsGAEgASgFEhQKDHJhZGlvR3Jv",
-            "dXBJZBgCIAEoBRIVCg1yYWRpb0RldmljZUlkGAMgASgFIqkCCglJbmZvU3Bh",
-            "bnMSDQoFc3RhdGUYASABKAgSDwoHbWVzc2FnZRgCIAEoCRI0CgdzcGFuTWFw",
-            "GAMgAygLMiMuc2hpbW1lckdSUEMuSW5mb1NwYW5zLlNwYW5NYXBFbnRyeRIz",
-            "Cg5pZWVlODAyMTU0SW5mbxgEIAEoCzIbLnNoaW1tZXJHUlBDLkllZWU4MDIx",
-            "NTRJbmZvGkAKCEluZm9TcGFuEhAKCHVuaXF1ZUlkGAEgASgJEg8KB3BvcnRC",
-            "c2wYAiABKAkSEQoJcG9ydENvbW1zGAMgASgJGk8KDFNwYW5NYXBFbnRyeRIL",
-            "CgNrZXkYASABKAkSLgoFdmFsdWUYAiABKAsyHy5zaGltbWVyR1JQQy5JbmZv",
-            "U3BhbnMuSW5mb1NwYW46AjgBIvoCCg9FbXVsYXRlZERldmljZXMSDQoFc3Rh",
-            "dGUYASABKAgSDwoHbWVzc2FnZRgCIAEoCRIWCg5pc0VtdWxhdG9yU2lkZRgD",
-            "IAEoCBJQChJlbXVsYXRlZERldmljZXNNYXAYBCADKAsyNC5zaGltbWVyR1JQ",
-            "Qy5FbXVsYXRlZERldmljZXMuRW11bGF0ZWREZXZpY2VzTWFwRW50cnkadQoO",
-            "RW11bGF0ZWREZXZpY2USEAoIdW5pcXVlSWQYASABKAkSGQoRZGV2aWNlVHlw",
-            "ZU9yZGluYWwYAiABKAUSHQoVaHdEZXZpY2VJbnRlcmZhY2VQYXRoGAMgAygJ",
-            "EhcKD2lzRGV2aWNlRW5hYmxlZBgEIAEoCBpmChdFbXVsYXRlZERldmljZXNN",
-            "YXBFbnRyeRILCgNrZXkYASABKAkSOgoFdmFsdWUYAiABKAsyKy5zaGltbWVy",
-            "R1JQQy5FbXVsYXRlZERldmljZXMuRW11bGF0ZWREZXZpY2U6AjgBMusOCg1T",
-            "aGltbWVyU2VydmVyEkAKCFNheUhlbGxvEhkuc2hpbW1lckdSUEMuSGVsbG9S",
-            "ZXF1ZXN0Ghcuc2hpbW1lckdSUEMuSGVsbG9SZXBseSIAEkwKDUdldERhdGFT",
-            "dHJlYW0SGi5zaGltbWVyR1JQQy5TdHJlYW1SZXF1ZXN0Ghsuc2hpbW1lckdS",
-            "UEMuT2JqZWN0Q2x1c3RlcjIiADABEkoKDlNlbmREYXRhU3RyZWFtEhsuc2hp",
-            "bW1lckdSUEMuT2JqZWN0Q2x1c3RlcjIaFy5zaGltbWVyR1JQQy5IZWxsb1Jl",
-            "cGx5IgAoARJMCg5TZW5kRmlsZVN0cmVhbRIdLnNoaW1tZXJHUlBDLkZpbGVC",
-            "eXRlVHJhbnNmZXIaFy5zaGltbWVyR1JQQy5IZWxsb1JlcGx5IgAoARJLCg5D",
-            "b25uZWN0U2hpbW1lchIbLnNoaW1tZXJHUlBDLlNoaW1tZXJSZXF1ZXN0Ghou",
-            "c2hpbW1lckdSUEMuQ29tbWFuZFN0YXR1cyIAEk4KEURpc2Nvbm5lY3RTaGlt",
-            "bWVyEhsuc2hpbW1lckdSUEMuU2hpbW1lclJlcXVlc3QaGi5zaGltbWVyR1JQ",
-            "Qy5Db21tYW5kU3RhdHVzIgASSwoOU3RhcnRTdHJlYW1pbmcSGy5zaGltbWVy",
-            "R1JQQy5TaGltbWVyUmVxdWVzdBoaLnNoaW1tZXJHUlBDLkNvbW1hbmRTdGF0",
-            "dXMiABJKCg1TdG9wU3RyZWFtaW5nEhsuc2hpbW1lckdSUEMuU2hpbW1lclJl",
-            "cXVlc3QaGi5zaGltbWVyR1JQQy5Db21tYW5kU3RhdHVzIgASTQoQQ2xvc2VB",
-            "cHBsaWNhdGlvbhIbLnNoaW1tZXJHUlBDLlNoaW1tZXJSZXF1ZXN0Ghouc2hp",
-            "bW1lckdSUEMuQ29tbWFuZFN0YXR1cyIAElAKFVNldFdvcmtzcGFjZURpcmVj",
-            "dG9yeRIWLnNoaW1tZXJHUlBDLlN0cmluZ01zZxodLnNoaW1tZXJHUlBDLk9w",
-            "ZXJhdGlvblJlcXVlc3QiABJJChVHZXRXb3Jrc3BhY2VEaXJlY3RvcnkSFi5z",
-            "aGltbWVyR1JQQy5TdHJpbmdNc2caFi5zaGltbWVyR1JQQy5TdHJpbmdNc2ci",
-            "ABJLChRHZXREb2NrZWRTaGltbWVySW5mbxIWLnNoaW1tZXJHUlBDLlN0cmlu",
-            "Z01zZxoZLnNoaW1tZXJHUlBDLlNoaW1tZXJzSW5mbyIAEkkKFUdldE1hZGdl",
-            "d2lja0JldGFWYWx1ZRIWLnNoaW1tZXJHUlBDLlN0cmluZ01zZxoWLnNoaW1t",
-            "ZXJHUlBDLkRvdWJsZU1zZyIAEkwKDFBhaXJTaGltbWVycxIbLnNoaW1tZXJH",
-            "UlBDLlN0cmluZ0FycmF5TXNnGh0uc2hpbW1lckdSUEMuT3BlcmF0aW9uUmVx",
-            "dWVzdCIAEk8KFEdldE9wZXJhdGlvblByb2dyZXNzEhYuc2hpbW1lckdSUEMu",
-            "U3RyaW5nTXNnGh0uc2hpbW1lckdSUEMuT3BlcmF0aW9uUmVxdWVzdCIAElgK",
-            "GEltcG9ydFNkRGF0YUZyb21TaGltbWVycxIbLnNoaW1tZXJHUlBDLlN0cmlu",
-            "Z0FycmF5TXNnGh0uc2hpbW1lckdSUEMuT3BlcmF0aW9uUmVxdWVzdCIAEk4K",
-            "E1BhcnNlU2REYXRhRnJvbVBhdGgSFi5zaGltbWVyR1JQQy5TdHJpbmdNc2ca",
-            "HS5zaGltbWVyR1JQQy5PcGVyYXRpb25SZXF1ZXN0IgASUQoRU2NhblNkRGF0",
-            "YUFuZENvcHkSGy5zaGltbWVyR1JQQy5TdHJpbmdBcnJheU1zZxodLnNoaW1t",
-            "ZXJHUlBDLk9wZXJhdGlvblJlcXVlc3QiABJPCg9DbGVhclNkQ2FyZERhdGES",
+            "aW1tZXJHUlBDLlNoaW1tZXJzSW5mby5TaGltbWVySW5mbzoCOAEi6QIKF0Js",
+            "dWV0b290aERldmljZXNEZXRhaWxzEg0KBXN0YXRlGAEgASgIEg8KB21lc3Nh",
+            "Z2UYAiABKAkSRgoJZGV2aWNlTWFwGAMgAygLMjMuc2hpbW1lckdSUEMuQmx1",
+            "ZXRvb3RoRGV2aWNlc0RldGFpbHMuRGV2aWNlTWFwRW50cnkadwoWQmx1ZXRv",
+            "b3RoRGV2aWNlRGV0YWlscxIPCgdjb21Qb3J0GAEgASgJEgwKBG5hbWUYAiAB",
+            "KAkSDQoFbWFjSWQYAyABKAkSEgoKZGV2aWNlVHlwZRgEIAEoCRIbChNsYXN0",
+            "Q29ubmVjdGlvblN0YXRlGAUgASgJGm0KDkRldmljZU1hcEVudHJ5EgsKA2tl",
+            "eRgBIAEoCRJKCgV2YWx1ZRgCIAEoCzI7LnNoaW1tZXJHUlBDLkJsdWV0b290",
+            "aERldmljZXNEZXRhaWxzLkJsdWV0b290aERldmljZURldGFpbHM6AjgBIlMK",
+            "DkllZWU4MDIxNTRJbmZvEhQKDHJhZGlvQ2hhbm5lbBgBIAEoBRIUCgxyYWRp",
+            "b0dyb3VwSWQYAiABKAUSFQoNcmFkaW9EZXZpY2VJZBgDIAEoBSKpAgoJSW5m",
+            "b1NwYW5zEg0KBXN0YXRlGAEgASgIEg8KB21lc3NhZ2UYAiABKAkSNAoHc3Bh",
+            "bk1hcBgDIAMoCzIjLnNoaW1tZXJHUlBDLkluZm9TcGFucy5TcGFuTWFwRW50",
+            "cnkSMwoOaWVlZTgwMjE1NEluZm8YBCABKAsyGy5zaGltbWVyR1JQQy5JZWVl",
+            "ODAyMTU0SW5mbxpACghJbmZvU3BhbhIQCgh1bmlxdWVJZBgBIAEoCRIPCgdw",
+            "b3J0QnNsGAIgASgJEhEKCXBvcnRDb21tcxgDIAEoCRpPCgxTcGFuTWFwRW50",
+            "cnkSCwoDa2V5GAEgASgJEi4KBXZhbHVlGAIgASgLMh8uc2hpbW1lckdSUEMu",
+            "SW5mb1NwYW5zLkluZm9TcGFuOgI4ASL6AgoPRW11bGF0ZWREZXZpY2VzEg0K",
+            "BXN0YXRlGAEgASgIEg8KB21lc3NhZ2UYAiABKAkSFgoOaXNFbXVsYXRvclNp",
+            "ZGUYAyABKAgSUAoSZW11bGF0ZWREZXZpY2VzTWFwGAQgAygLMjQuc2hpbW1l",
+            "ckdSUEMuRW11bGF0ZWREZXZpY2VzLkVtdWxhdGVkRGV2aWNlc01hcEVudHJ5",
+            "GnUKDkVtdWxhdGVkRGV2aWNlEhAKCHVuaXF1ZUlkGAEgASgJEhkKEWRldmlj",
+            "ZVR5cGVPcmRpbmFsGAIgASgFEh0KFWh3RGV2aWNlSW50ZXJmYWNlUGF0aBgD",
+            "IAMoCRIXCg9pc0RldmljZUVuYWJsZWQYBCABKAgaZgoXRW11bGF0ZWREZXZp",
+            "Y2VzTWFwRW50cnkSCwoDa2V5GAEgASgJEjoKBXZhbHVlGAIgASgLMisuc2hp",
+            "bW1lckdSUEMuRW11bGF0ZWREZXZpY2VzLkVtdWxhdGVkRGV2aWNlOgI4ATLI",
+            "DwoNU2hpbW1lclNlcnZlchJACghTYXlIZWxsbxIZLnNoaW1tZXJHUlBDLkhl",
+            "bGxvUmVxdWVzdBoXLnNoaW1tZXJHUlBDLkhlbGxvUmVwbHkiABJMCg1HZXRE",
+            "YXRhU3RyZWFtEhouc2hpbW1lckdSUEMuU3RyZWFtUmVxdWVzdBobLnNoaW1t",
+            "ZXJHUlBDLk9iamVjdENsdXN0ZXIyIgAwARJKCg5TZW5kRGF0YVN0cmVhbRIb",
+            "LnNoaW1tZXJHUlBDLk9iamVjdENsdXN0ZXIyGhcuc2hpbW1lckdSUEMuSGVs",
+            "bG9SZXBseSIAKAESTAoOU2VuZEZpbGVTdHJlYW0SHS5zaGltbWVyR1JQQy5G",
+            "aWxlQnl0ZVRyYW5zZmVyGhcuc2hpbW1lckdSUEMuSGVsbG9SZXBseSIAKAES",
+            "SwoOQ29ubmVjdFNoaW1tZXISGy5zaGltbWVyR1JQQy5TaGltbWVyUmVxdWVz",
+            "dBoaLnNoaW1tZXJHUlBDLkNvbW1hbmRTdGF0dXMiABJOChFEaXNjb25uZWN0",
+            "U2hpbW1lchIbLnNoaW1tZXJHUlBDLlNoaW1tZXJSZXF1ZXN0Ghouc2hpbW1l",
+            "ckdSUEMuQ29tbWFuZFN0YXR1cyIAEksKDlN0YXJ0U3RyZWFtaW5nEhsuc2hp",
+            "bW1lckdSUEMuU2hpbW1lclJlcXVlc3QaGi5zaGltbWVyR1JQQy5Db21tYW5k",
+            "U3RhdHVzIgASSgoNU3RvcFN0cmVhbWluZxIbLnNoaW1tZXJHUlBDLlNoaW1t",
+            "ZXJSZXF1ZXN0Ghouc2hpbW1lckdSUEMuQ29tbWFuZFN0YXR1cyIAEk0KEENs",
+            "b3NlQXBwbGljYXRpb24SGy5zaGltbWVyR1JQQy5TaGltbWVyUmVxdWVzdBoa",
+            "LnNoaW1tZXJHUlBDLkNvbW1hbmRTdGF0dXMiABJQChVTZXRXb3Jrc3BhY2VE",
+            "aXJlY3RvcnkSFi5zaGltbWVyR1JQQy5TdHJpbmdNc2caHS5zaGltbWVyR1JQ",
+            "Qy5PcGVyYXRpb25SZXF1ZXN0IgASSQoVR2V0V29ya3NwYWNlRGlyZWN0b3J5",
+            "EhYuc2hpbW1lckdSUEMuU3RyaW5nTXNnGhYuc2hpbW1lckdSUEMuU3RyaW5n",
+            "TXNnIgASSwoUR2V0RG9ja2VkU2hpbW1lckluZm8SFi5zaGltbWVyR1JQQy5T",
+            "dHJpbmdNc2caGS5zaGltbWVyR1JQQy5TaGltbWVyc0luZm8iABJJChVHZXRN",
+            "YWRnZXdpY2tCZXRhVmFsdWUSFi5zaGltbWVyR1JQQy5TdHJpbmdNc2caFi5z",
+            "aGltbWVyR1JQQy5Eb3VibGVNc2ciABJMCgxQYWlyU2hpbW1lcnMSGy5zaGlt",
+            "bWVyR1JQQy5TdHJpbmdBcnJheU1zZxodLnNoaW1tZXJHUlBDLk9wZXJhdGlv",
+            "blJlcXVlc3QiABJPChRHZXRPcGVyYXRpb25Qcm9ncmVzcxIWLnNoaW1tZXJH",
+            "UlBDLlN0cmluZ01zZxodLnNoaW1tZXJHUlBDLk9wZXJhdGlvblJlcXVlc3Qi",
+            "ABJYChhJbXBvcnRTZERhdGFGcm9tU2hpbW1lcnMSGy5zaGltbWVyR1JQQy5T",
+            "dHJpbmdBcnJheU1zZxodLnNoaW1tZXJHUlBDLk9wZXJhdGlvblJlcXVlc3Qi",
+            "ABJOChNQYXJzZVNkRGF0YUZyb21QYXRoEhYuc2hpbW1lckdSUEMuU3RyaW5n",
+            "TXNnGh0uc2hpbW1lckdSUEMuT3BlcmF0aW9uUmVxdWVzdCIAElEKEVNjYW5T",
+            "ZERhdGFBbmRDb3B5Ehsuc2hpbW1lckdSUEMuU3RyaW5nQXJyYXlNc2caHS5z",
+            "aGltbWVyR1JQQy5PcGVyYXRpb25SZXF1ZXN0IgASTwoPQ2xlYXJTZENhcmRE",
+            "YXRhEhsuc2hpbW1lckdSUEMuU3RyaW5nQXJyYXlNc2caHS5zaGltbWVyR1JQ",
+            "Qy5PcGVyYXRpb25SZXF1ZXN0IgASWAoYRG9ja0FjY2Vzc1Nsb3RXaXRoU2RD",
+            "YXJkEhsuc2hpbW1lckdSUEMuU3RyaW5nQXJyYXlNc2caHS5zaGltbWVyR1JQ",
+            "Qy5PcGVyYXRpb25SZXF1ZXN0IgASVAoURG9ja1Jlc3RvcmVBdXRvVGFza3MS",
             "Gy5zaGltbWVyR1JQQy5TdHJpbmdBcnJheU1zZxodLnNoaW1tZXJHUlBDLk9w",
-            "ZXJhdGlvblJlcXVlc3QiABJYChhEb2NrQWNjZXNzU2xvdFdpdGhTZENhcmQS",
-            "Gy5zaGltbWVyR1JQQy5TdHJpbmdBcnJheU1zZxodLnNoaW1tZXJHUlBDLk9w",
-            "ZXJhdGlvblJlcXVlc3QiABJUChREb2NrUmVzdG9yZUF1dG9UYXNrcxIbLnNo",
-            "aW1tZXJHUlBDLlN0cmluZ0FycmF5TXNnGh0uc2hpbW1lckdSUEMuT3BlcmF0",
-            "aW9uUmVxdWVzdCIAEkAKDEdldEluZm9TcGFucxIWLnNoaW1tZXJHUlBDLlN0",
-            "cmluZ01zZxoWLnNoaW1tZXJHUlBDLkluZm9TcGFucyIAEkkKEkdldEluZm9B",
-            "bGxTaGltbWVycxIWLnNoaW1tZXJHUlBDLlN0cmluZ01zZxoZLnNoaW1tZXJH",
-            "UlBDLlNoaW1tZXJzSW5mbyIAEkwKEkdldEVtdWxhdGVkRGV2aWNlcxIWLnNo",
-            "aW1tZXJHUlBDLlN0cmluZ01zZxocLnNoaW1tZXJHUlBDLkVtdWxhdGVkRGV2",
-            "aWNlcyIAQkIKGGNvbS5zaGltbWVycmVzZWFyY2guZ3JwY0ILU2hpbW1lckdS",
-            "UEOqAhhjb20uc2hpbW1lcnJlc2VhcmNoLmdycGNiBnByb3RvMw=="));
+            "ZXJhdGlvblJlcXVlc3QiABJACgxHZXRJbmZvU3BhbnMSFi5zaGltbWVyR1JQ",
+            "Qy5TdHJpbmdNc2caFi5zaGltbWVyR1JQQy5JbmZvU3BhbnMiABJJChJHZXRJ",
+            "bmZvQWxsU2hpbW1lcnMSFi5zaGltbWVyR1JQQy5TdHJpbmdNc2caGS5zaGlt",
+            "bWVyR1JQQy5TaGltbWVyc0luZm8iABJMChJHZXRFbXVsYXRlZERldmljZXMS",
+            "Fi5zaGltbWVyR1JQQy5TdHJpbmdNc2caHC5zaGltbWVyR1JQQy5FbXVsYXRl",
+            "ZERldmljZXMiABJbChlHZXRCbHVldG9vdGhEZXZpY2VEZXRhaWxzEhYuc2hp",
+            "bW1lckdSUEMuU3RyaW5nTXNnGiQuc2hpbW1lckdSUEMuQmx1ZXRvb3RoRGV2",
+            "aWNlc0RldGFpbHMiAEJCChhjb20uc2hpbW1lcnJlc2VhcmNoLmdycGNCC1No",
+            "aW1tZXJHUlBDqgIYY29tLnNoaW1tZXJyZXNlYXJjaC5ncnBjYgZwcm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
@@ -147,6 +157,8 @@ namespace com.shimmerresearch.grpc {
             new pbr::GeneratedClrTypeInfo(typeof(global::com.shimmerresearch.grpc.DoubleMsg), global::com.shimmerresearch.grpc.DoubleMsg.Parser, new[]{ "Number" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::com.shimmerresearch.grpc.OperationRequest), global::com.shimmerresearch.grpc.OperationRequest.Parser, new[]{ "IsFinished", "IsSuccess", "Message", "ProgressPercentage", "ProgressPercentageParsed" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::com.shimmerresearch.grpc.ShimmersInfo), global::com.shimmerresearch.grpc.ShimmersInfo.Parser, new[]{ "State", "Message", "ShimmerMap" }, null, null, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::com.shimmerresearch.grpc.ShimmersInfo.Types.ShimmerInfo), global::com.shimmerresearch.grpc.ShimmersInfo.Types.ShimmerInfo.Parser, new[]{ "Name", "UniqueId", "BluetoothAddress", "TrialName", "BatteryPercentageParsed", "BatteryPercentage", "ChargingStatusParsed", "DriveCapacity", "DriveSpaceUsed", "DriveSpaceFree", "DriveCapacityParsed", "IsRealTimeClockSet", "LastReadRtcValueMilliSecs", "LastReadRtcValueParsed", "HwVersionParsed", "ExpBrdVersionParsed", "FwVersionParsed", "PairedDevice", "ConfigTime", "ConfigTimeParsed", "Ieee802154Info" }, null, null, null, null),
+            null, }),
+            new pbr::GeneratedClrTypeInfo(typeof(global::com.shimmerresearch.grpc.BluetoothDevicesDetails), global::com.shimmerresearch.grpc.BluetoothDevicesDetails.Parser, new[]{ "State", "Message", "DeviceMap" }, null, null, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::com.shimmerresearch.grpc.BluetoothDevicesDetails.Types.BluetoothDeviceDetails), global::com.shimmerresearch.grpc.BluetoothDevicesDetails.Types.BluetoothDeviceDetails.Parser, new[]{ "ComPort", "Name", "MacId", "DeviceType", "LastConnectionState" }, null, null, null, null),
             null, }),
             new pbr::GeneratedClrTypeInfo(typeof(global::com.shimmerresearch.grpc.Ieee802154Info), global::com.shimmerresearch.grpc.Ieee802154Info.Parser, new[]{ "RadioChannel", "RadioGroupId", "RadioDeviceId" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::com.shimmerresearch.grpc.InfoSpans), global::com.shimmerresearch.grpc.InfoSpans.Parser, new[]{ "State", "Message", "SpanMap", "Ieee802154Info" }, null, null, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::com.shimmerresearch.grpc.InfoSpans.Types.InfoSpan), global::com.shimmerresearch.grpc.InfoSpans.Types.InfoSpan.Parser, new[]{ "UniqueId", "PortBsl", "PortComms" }, null, null, null, null),
@@ -4155,6 +4167,562 @@ namespace com.shimmerresearch.grpc {
 
   }
 
+  public sealed partial class BluetoothDevicesDetails : pb::IMessage<BluetoothDevicesDetails>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
+    private static readonly pb::MessageParser<BluetoothDevicesDetails> _parser = new pb::MessageParser<BluetoothDevicesDetails>(() => new BluetoothDevicesDetails());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<BluetoothDevicesDetails> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::com.shimmerresearch.grpc.ShimmerGrpcAndOJCReflection.Descriptor.MessageTypes[13]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public BluetoothDevicesDetails() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public BluetoothDevicesDetails(BluetoothDevicesDetails other) : this() {
+      state_ = other.state_;
+      message_ = other.message_;
+      deviceMap_ = other.deviceMap_.Clone();
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public BluetoothDevicesDetails Clone() {
+      return new BluetoothDevicesDetails(this);
+    }
+
+    /// <summary>Field number for the "state" field.</summary>
+    public const int StateFieldNumber = 1;
+    private bool state_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool State {
+      get { return state_; }
+      set {
+        state_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "message" field.</summary>
+    public const int MessageFieldNumber = 2;
+    private string message_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string Message {
+      get { return message_; }
+      set {
+        message_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "deviceMap" field.</summary>
+    public const int DeviceMapFieldNumber = 3;
+    private static readonly pbc::MapField<string, global::com.shimmerresearch.grpc.BluetoothDevicesDetails.Types.BluetoothDeviceDetails>.Codec _map_deviceMap_codec
+        = new pbc::MapField<string, global::com.shimmerresearch.grpc.BluetoothDevicesDetails.Types.BluetoothDeviceDetails>.Codec(pb::FieldCodec.ForString(10, ""), pb::FieldCodec.ForMessage(18, global::com.shimmerresearch.grpc.BluetoothDevicesDetails.Types.BluetoothDeviceDetails.Parser), 26);
+    private readonly pbc::MapField<string, global::com.shimmerresearch.grpc.BluetoothDevicesDetails.Types.BluetoothDeviceDetails> deviceMap_ = new pbc::MapField<string, global::com.shimmerresearch.grpc.BluetoothDevicesDetails.Types.BluetoothDeviceDetails>();
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public pbc::MapField<string, global::com.shimmerresearch.grpc.BluetoothDevicesDetails.Types.BluetoothDeviceDetails> DeviceMap {
+      get { return deviceMap_; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as BluetoothDevicesDetails);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(BluetoothDevicesDetails other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (State != other.State) return false;
+      if (Message != other.Message) return false;
+      if (!DeviceMap.Equals(other.DeviceMap)) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (State != false) hash ^= State.GetHashCode();
+      if (Message.Length != 0) hash ^= Message.GetHashCode();
+      hash ^= DeviceMap.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
+      if (State != false) {
+        output.WriteRawTag(8);
+        output.WriteBool(State);
+      }
+      if (Message.Length != 0) {
+        output.WriteRawTag(18);
+        output.WriteString(Message);
+      }
+      deviceMap_.WriteTo(output, _map_deviceMap_codec);
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (State != false) {
+        output.WriteRawTag(8);
+        output.WriteBool(State);
+      }
+      if (Message.Length != 0) {
+        output.WriteRawTag(18);
+        output.WriteString(Message);
+      }
+      deviceMap_.WriteTo(ref output, _map_deviceMap_codec);
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      if (State != false) {
+        size += 1 + 1;
+      }
+      if (Message.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Message);
+      }
+      size += deviceMap_.CalculateSize(_map_deviceMap_codec);
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(BluetoothDevicesDetails other) {
+      if (other == null) {
+        return;
+      }
+      if (other.State != false) {
+        State = other.State;
+      }
+      if (other.Message.Length != 0) {
+        Message = other.Message;
+      }
+      deviceMap_.Add(other.deviceMap_);
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 8: {
+            State = input.ReadBool();
+            break;
+          }
+          case 18: {
+            Message = input.ReadString();
+            break;
+          }
+          case 26: {
+            deviceMap_.AddEntriesFrom(input, _map_deviceMap_codec);
+            break;
+          }
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+          case 8: {
+            State = input.ReadBool();
+            break;
+          }
+          case 18: {
+            Message = input.ReadString();
+            break;
+          }
+          case 26: {
+            deviceMap_.AddEntriesFrom(ref input, _map_deviceMap_codec);
+            break;
+          }
+        }
+      }
+    }
+    #endif
+
+    #region Nested types
+    /// <summary>Container for nested types declared in the BluetoothDevicesDetails message type.</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static partial class Types {
+      public sealed partial class BluetoothDeviceDetails : pb::IMessage<BluetoothDeviceDetails>
+      #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+          , pb::IBufferMessage
+      #endif
+      {
+        private static readonly pb::MessageParser<BluetoothDeviceDetails> _parser = new pb::MessageParser<BluetoothDeviceDetails>(() => new BluetoothDeviceDetails());
+        private pb::UnknownFieldSet _unknownFields;
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public static pb::MessageParser<BluetoothDeviceDetails> Parser { get { return _parser; } }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public static pbr::MessageDescriptor Descriptor {
+          get { return global::com.shimmerresearch.grpc.BluetoothDevicesDetails.Descriptor.NestedTypes[0]; }
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        pbr::MessageDescriptor pb::IMessage.Descriptor {
+          get { return Descriptor; }
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public BluetoothDeviceDetails() {
+          OnConstruction();
+        }
+
+        partial void OnConstruction();
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public BluetoothDeviceDetails(BluetoothDeviceDetails other) : this() {
+          comPort_ = other.comPort_;
+          name_ = other.name_;
+          macId_ = other.macId_;
+          deviceType_ = other.deviceType_;
+          lastConnectionState_ = other.lastConnectionState_;
+          _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public BluetoothDeviceDetails Clone() {
+          return new BluetoothDeviceDetails(this);
+        }
+
+        /// <summary>Field number for the "comPort" field.</summary>
+        public const int ComPortFieldNumber = 1;
+        private string comPort_ = "";
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public string ComPort {
+          get { return comPort_; }
+          set {
+            comPort_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+          }
+        }
+
+        /// <summary>Field number for the "name" field.</summary>
+        public const int NameFieldNumber = 2;
+        private string name_ = "";
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public string Name {
+          get { return name_; }
+          set {
+            name_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+          }
+        }
+
+        /// <summary>Field number for the "macId" field.</summary>
+        public const int MacIdFieldNumber = 3;
+        private string macId_ = "";
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public string MacId {
+          get { return macId_; }
+          set {
+            macId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+          }
+        }
+
+        /// <summary>Field number for the "deviceType" field.</summary>
+        public const int DeviceTypeFieldNumber = 4;
+        private string deviceType_ = "";
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public string DeviceType {
+          get { return deviceType_; }
+          set {
+            deviceType_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+          }
+        }
+
+        /// <summary>Field number for the "lastConnectionState" field.</summary>
+        public const int LastConnectionStateFieldNumber = 5;
+        private string lastConnectionState_ = "";
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public string LastConnectionState {
+          get { return lastConnectionState_; }
+          set {
+            lastConnectionState_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+          }
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public override bool Equals(object other) {
+          return Equals(other as BluetoothDeviceDetails);
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public bool Equals(BluetoothDeviceDetails other) {
+          if (ReferenceEquals(other, null)) {
+            return false;
+          }
+          if (ReferenceEquals(other, this)) {
+            return true;
+          }
+          if (ComPort != other.ComPort) return false;
+          if (Name != other.Name) return false;
+          if (MacId != other.MacId) return false;
+          if (DeviceType != other.DeviceType) return false;
+          if (LastConnectionState != other.LastConnectionState) return false;
+          return Equals(_unknownFields, other._unknownFields);
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public override int GetHashCode() {
+          int hash = 1;
+          if (ComPort.Length != 0) hash ^= ComPort.GetHashCode();
+          if (Name.Length != 0) hash ^= Name.GetHashCode();
+          if (MacId.Length != 0) hash ^= MacId.GetHashCode();
+          if (DeviceType.Length != 0) hash ^= DeviceType.GetHashCode();
+          if (LastConnectionState.Length != 0) hash ^= LastConnectionState.GetHashCode();
+          if (_unknownFields != null) {
+            hash ^= _unknownFields.GetHashCode();
+          }
+          return hash;
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public override string ToString() {
+          return pb::JsonFormatter.ToDiagnosticString(this);
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public void WriteTo(pb::CodedOutputStream output) {
+        #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+          output.WriteRawMessage(this);
+        #else
+          if (ComPort.Length != 0) {
+            output.WriteRawTag(10);
+            output.WriteString(ComPort);
+          }
+          if (Name.Length != 0) {
+            output.WriteRawTag(18);
+            output.WriteString(Name);
+          }
+          if (MacId.Length != 0) {
+            output.WriteRawTag(26);
+            output.WriteString(MacId);
+          }
+          if (DeviceType.Length != 0) {
+            output.WriteRawTag(34);
+            output.WriteString(DeviceType);
+          }
+          if (LastConnectionState.Length != 0) {
+            output.WriteRawTag(42);
+            output.WriteString(LastConnectionState);
+          }
+          if (_unknownFields != null) {
+            _unknownFields.WriteTo(output);
+          }
+        #endif
+        }
+
+        #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+          if (ComPort.Length != 0) {
+            output.WriteRawTag(10);
+            output.WriteString(ComPort);
+          }
+          if (Name.Length != 0) {
+            output.WriteRawTag(18);
+            output.WriteString(Name);
+          }
+          if (MacId.Length != 0) {
+            output.WriteRawTag(26);
+            output.WriteString(MacId);
+          }
+          if (DeviceType.Length != 0) {
+            output.WriteRawTag(34);
+            output.WriteString(DeviceType);
+          }
+          if (LastConnectionState.Length != 0) {
+            output.WriteRawTag(42);
+            output.WriteString(LastConnectionState);
+          }
+          if (_unknownFields != null) {
+            _unknownFields.WriteTo(ref output);
+          }
+        }
+        #endif
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public int CalculateSize() {
+          int size = 0;
+          if (ComPort.Length != 0) {
+            size += 1 + pb::CodedOutputStream.ComputeStringSize(ComPort);
+          }
+          if (Name.Length != 0) {
+            size += 1 + pb::CodedOutputStream.ComputeStringSize(Name);
+          }
+          if (MacId.Length != 0) {
+            size += 1 + pb::CodedOutputStream.ComputeStringSize(MacId);
+          }
+          if (DeviceType.Length != 0) {
+            size += 1 + pb::CodedOutputStream.ComputeStringSize(DeviceType);
+          }
+          if (LastConnectionState.Length != 0) {
+            size += 1 + pb::CodedOutputStream.ComputeStringSize(LastConnectionState);
+          }
+          if (_unknownFields != null) {
+            size += _unknownFields.CalculateSize();
+          }
+          return size;
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public void MergeFrom(BluetoothDeviceDetails other) {
+          if (other == null) {
+            return;
+          }
+          if (other.ComPort.Length != 0) {
+            ComPort = other.ComPort;
+          }
+          if (other.Name.Length != 0) {
+            Name = other.Name;
+          }
+          if (other.MacId.Length != 0) {
+            MacId = other.MacId;
+          }
+          if (other.DeviceType.Length != 0) {
+            DeviceType = other.DeviceType;
+          }
+          if (other.LastConnectionState.Length != 0) {
+            LastConnectionState = other.LastConnectionState;
+          }
+          _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public void MergeFrom(pb::CodedInputStream input) {
+        #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+          input.ReadRawMessage(this);
+        #else
+          uint tag;
+          while ((tag = input.ReadTag()) != 0) {
+            switch(tag) {
+              default:
+                _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+                break;
+              case 10: {
+                ComPort = input.ReadString();
+                break;
+              }
+              case 18: {
+                Name = input.ReadString();
+                break;
+              }
+              case 26: {
+                MacId = input.ReadString();
+                break;
+              }
+              case 34: {
+                DeviceType = input.ReadString();
+                break;
+              }
+              case 42: {
+                LastConnectionState = input.ReadString();
+                break;
+              }
+            }
+          }
+        #endif
+        }
+
+        #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+          uint tag;
+          while ((tag = input.ReadTag()) != 0) {
+            switch(tag) {
+              default:
+                _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+                break;
+              case 10: {
+                ComPort = input.ReadString();
+                break;
+              }
+              case 18: {
+                Name = input.ReadString();
+                break;
+              }
+              case 26: {
+                MacId = input.ReadString();
+                break;
+              }
+              case 34: {
+                DeviceType = input.ReadString();
+                break;
+              }
+              case 42: {
+                LastConnectionState = input.ReadString();
+                break;
+              }
+            }
+          }
+        }
+        #endif
+
+      }
+
+    }
+    #endregion
+
+  }
+
   public sealed partial class Ieee802154Info : pb::IMessage<Ieee802154Info>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -4167,7 +4735,7 @@ namespace com.shimmerresearch.grpc {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::com.shimmerresearch.grpc.ShimmerGrpcAndOJCReflection.Descriptor.MessageTypes[13]; }
+      get { return global::com.shimmerresearch.grpc.ShimmerGrpcAndOJCReflection.Descriptor.MessageTypes[14]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -4411,7 +4979,7 @@ namespace com.shimmerresearch.grpc {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::com.shimmerresearch.grpc.ShimmerGrpcAndOJCReflection.Descriptor.MessageTypes[14]; }
+      get { return global::com.shimmerresearch.grpc.ShimmerGrpcAndOJCReflection.Descriptor.MessageTypes[15]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -4940,7 +5508,7 @@ namespace com.shimmerresearch.grpc {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::com.shimmerresearch.grpc.ShimmerGrpcAndOJCReflection.Descriptor.MessageTypes[15]; }
+      get { return global::com.shimmerresearch.grpc.ShimmerGrpcAndOJCReflection.Descriptor.MessageTypes[16]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]

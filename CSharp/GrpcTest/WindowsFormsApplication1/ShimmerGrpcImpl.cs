@@ -67,11 +67,11 @@ namespace com.shimmerresearch.grpc
             client.StopStreaming(req);
         }
 
-        public ShimmersInfo ListDevices()
+        public BluetoothDevicesDetails ListDevices()
         {
             var req = new StringMsg();
-            ShimmersInfo shimmersInfo = client.GetInfoAllShimmers(req);
-            return shimmersInfo;
+            BluetoothDevicesDetails bdd = client.GetBluetoothDeviceDetails(req);
+            return bdd;
         }
     }
 }

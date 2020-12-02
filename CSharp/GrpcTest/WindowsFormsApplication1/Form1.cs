@@ -111,11 +111,11 @@ namespace WindowsFormsApplication1
 
             var shimmersInfo = test.ListDevices();
             var shimmerNames = new List<string>();
-            foreach(var pair in shimmersInfo.ShimmerMap)
+            foreach(var pair in shimmersInfo.DeviceMap)
             {
                 var shimmer = pair.Value;
                 shimmerNames.Add(shimmer.Name);
-                listView1.Items.Add(new ListViewItem(new string[] { shimmer.Name, shimmer.UniqueId }));
+                listView1.Items.Add(new ListViewItem(new string[] { shimmer.Name, shimmer.ComPort }));
             }
             listView1.Refresh();
         }
