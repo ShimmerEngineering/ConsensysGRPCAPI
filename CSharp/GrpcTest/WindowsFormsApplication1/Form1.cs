@@ -79,10 +79,12 @@ namespace WindowsFormsApplication1
             try {
                 await test.Connect(textBoxAddress.Text, textBoxPort.Text);
                 labelClient.Text = "Client Is Connected";
+                test.StartStates();
                 test.Start();
             } catch(Exception Ex)
             {
                 labelClient.Text = "Client Is Not Connected";
+                Console.WriteLine(Ex);
             }
         }
 

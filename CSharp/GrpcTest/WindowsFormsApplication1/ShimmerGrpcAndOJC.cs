@@ -75,73 +75,81 @@ namespace com.shimmerresearch.grpc {
             "KAkSDQoFbWFjSWQYAyABKAkSEgoKZGV2aWNlVHlwZRgEIAEoCRIbChNsYXN0",
             "Q29ubmVjdGlvblN0YXRlGAUgASgJGm0KDkRldmljZU1hcEVudHJ5EgsKA2tl",
             "eRgBIAEoCRJKCgV2YWx1ZRgCIAEoCzI7LnNoaW1tZXJHUlBDLkJsdWV0b290",
-            "aERldmljZXNEZXRhaWxzLkJsdWV0b290aERldmljZURldGFpbHM6AjgBIlMK",
-            "DkllZWU4MDIxNTRJbmZvEhQKDHJhZGlvQ2hhbm5lbBgBIAEoBRIUCgxyYWRp",
-            "b0dyb3VwSWQYAiABKAUSFQoNcmFkaW9EZXZpY2VJZBgDIAEoBSKpAgoJSW5m",
-            "b1NwYW5zEg0KBXN0YXRlGAEgASgIEg8KB21lc3NhZ2UYAiABKAkSNAoHc3Bh",
-            "bk1hcBgDIAMoCzIjLnNoaW1tZXJHUlBDLkluZm9TcGFucy5TcGFuTWFwRW50",
-            "cnkSMwoOaWVlZTgwMjE1NEluZm8YBCABKAsyGy5zaGltbWVyR1JQQy5JZWVl",
-            "ODAyMTU0SW5mbxpACghJbmZvU3BhbhIQCgh1bmlxdWVJZBgBIAEoCRIPCgdw",
-            "b3J0QnNsGAIgASgJEhEKCXBvcnRDb21tcxgDIAEoCRpPCgxTcGFuTWFwRW50",
-            "cnkSCwoDa2V5GAEgASgJEi4KBXZhbHVlGAIgASgLMh8uc2hpbW1lckdSUEMu",
-            "SW5mb1NwYW5zLkluZm9TcGFuOgI4ASL6AgoPRW11bGF0ZWREZXZpY2VzEg0K",
-            "BXN0YXRlGAEgASgIEg8KB21lc3NhZ2UYAiABKAkSFgoOaXNFbXVsYXRvclNp",
-            "ZGUYAyABKAgSUAoSZW11bGF0ZWREZXZpY2VzTWFwGAQgAygLMjQuc2hpbW1l",
-            "ckdSUEMuRW11bGF0ZWREZXZpY2VzLkVtdWxhdGVkRGV2aWNlc01hcEVudHJ5",
-            "GnUKDkVtdWxhdGVkRGV2aWNlEhAKCHVuaXF1ZUlkGAEgASgJEhkKEWRldmlj",
-            "ZVR5cGVPcmRpbmFsGAIgASgFEh0KFWh3RGV2aWNlSW50ZXJmYWNlUGF0aBgD",
-            "IAMoCRIXCg9pc0RldmljZUVuYWJsZWQYBCABKAgaZgoXRW11bGF0ZWREZXZp",
-            "Y2VzTWFwRW50cnkSCwoDa2V5GAEgASgJEjoKBXZhbHVlGAIgASgLMisuc2hp",
-            "bW1lckdSUEMuRW11bGF0ZWREZXZpY2VzLkVtdWxhdGVkRGV2aWNlOgI4ATLI",
-            "DwoNU2hpbW1lclNlcnZlchJACghTYXlIZWxsbxIZLnNoaW1tZXJHUlBDLkhl",
-            "bGxvUmVxdWVzdBoXLnNoaW1tZXJHUlBDLkhlbGxvUmVwbHkiABJMCg1HZXRE",
-            "YXRhU3RyZWFtEhouc2hpbW1lckdSUEMuU3RyZWFtUmVxdWVzdBobLnNoaW1t",
-            "ZXJHUlBDLk9iamVjdENsdXN0ZXIyIgAwARJKCg5TZW5kRGF0YVN0cmVhbRIb",
-            "LnNoaW1tZXJHUlBDLk9iamVjdENsdXN0ZXIyGhcuc2hpbW1lckdSUEMuSGVs",
-            "bG9SZXBseSIAKAESTAoOU2VuZEZpbGVTdHJlYW0SHS5zaGltbWVyR1JQQy5G",
-            "aWxlQnl0ZVRyYW5zZmVyGhcuc2hpbW1lckdSUEMuSGVsbG9SZXBseSIAKAES",
-            "SwoOQ29ubmVjdFNoaW1tZXISGy5zaGltbWVyR1JQQy5TaGltbWVyUmVxdWVz",
-            "dBoaLnNoaW1tZXJHUlBDLkNvbW1hbmRTdGF0dXMiABJOChFEaXNjb25uZWN0",
-            "U2hpbW1lchIbLnNoaW1tZXJHUlBDLlNoaW1tZXJSZXF1ZXN0Ghouc2hpbW1l",
-            "ckdSUEMuQ29tbWFuZFN0YXR1cyIAEksKDlN0YXJ0U3RyZWFtaW5nEhsuc2hp",
-            "bW1lckdSUEMuU2hpbW1lclJlcXVlc3QaGi5zaGltbWVyR1JQQy5Db21tYW5k",
-            "U3RhdHVzIgASSgoNU3RvcFN0cmVhbWluZxIbLnNoaW1tZXJHUlBDLlNoaW1t",
-            "ZXJSZXF1ZXN0Ghouc2hpbW1lckdSUEMuQ29tbWFuZFN0YXR1cyIAEk0KEENs",
-            "b3NlQXBwbGljYXRpb24SGy5zaGltbWVyR1JQQy5TaGltbWVyUmVxdWVzdBoa",
-            "LnNoaW1tZXJHUlBDLkNvbW1hbmRTdGF0dXMiABJQChVTZXRXb3Jrc3BhY2VE",
-            "aXJlY3RvcnkSFi5zaGltbWVyR1JQQy5TdHJpbmdNc2caHS5zaGltbWVyR1JQ",
-            "Qy5PcGVyYXRpb25SZXF1ZXN0IgASSQoVR2V0V29ya3NwYWNlRGlyZWN0b3J5",
-            "EhYuc2hpbW1lckdSUEMuU3RyaW5nTXNnGhYuc2hpbW1lckdSUEMuU3RyaW5n",
-            "TXNnIgASSwoUR2V0RG9ja2VkU2hpbW1lckluZm8SFi5zaGltbWVyR1JQQy5T",
-            "dHJpbmdNc2caGS5zaGltbWVyR1JQQy5TaGltbWVyc0luZm8iABJJChVHZXRN",
-            "YWRnZXdpY2tCZXRhVmFsdWUSFi5zaGltbWVyR1JQQy5TdHJpbmdNc2caFi5z",
-            "aGltbWVyR1JQQy5Eb3VibGVNc2ciABJMCgxQYWlyU2hpbW1lcnMSGy5zaGlt",
-            "bWVyR1JQQy5TdHJpbmdBcnJheU1zZxodLnNoaW1tZXJHUlBDLk9wZXJhdGlv",
-            "blJlcXVlc3QiABJPChRHZXRPcGVyYXRpb25Qcm9ncmVzcxIWLnNoaW1tZXJH",
-            "UlBDLlN0cmluZ01zZxodLnNoaW1tZXJHUlBDLk9wZXJhdGlvblJlcXVlc3Qi",
-            "ABJYChhJbXBvcnRTZERhdGFGcm9tU2hpbW1lcnMSGy5zaGltbWVyR1JQQy5T",
-            "dHJpbmdBcnJheU1zZxodLnNoaW1tZXJHUlBDLk9wZXJhdGlvblJlcXVlc3Qi",
-            "ABJOChNQYXJzZVNkRGF0YUZyb21QYXRoEhYuc2hpbW1lckdSUEMuU3RyaW5n",
-            "TXNnGh0uc2hpbW1lckdSUEMuT3BlcmF0aW9uUmVxdWVzdCIAElEKEVNjYW5T",
-            "ZERhdGFBbmRDb3B5Ehsuc2hpbW1lckdSUEMuU3RyaW5nQXJyYXlNc2caHS5z",
-            "aGltbWVyR1JQQy5PcGVyYXRpb25SZXF1ZXN0IgASTwoPQ2xlYXJTZENhcmRE",
-            "YXRhEhsuc2hpbW1lckdSUEMuU3RyaW5nQXJyYXlNc2caHS5zaGltbWVyR1JQ",
-            "Qy5PcGVyYXRpb25SZXF1ZXN0IgASWAoYRG9ja0FjY2Vzc1Nsb3RXaXRoU2RD",
-            "YXJkEhsuc2hpbW1lckdSUEMuU3RyaW5nQXJyYXlNc2caHS5zaGltbWVyR1JQ",
-            "Qy5PcGVyYXRpb25SZXF1ZXN0IgASVAoURG9ja1Jlc3RvcmVBdXRvVGFza3MS",
-            "Gy5zaGltbWVyR1JQQy5TdHJpbmdBcnJheU1zZxodLnNoaW1tZXJHUlBDLk9w",
-            "ZXJhdGlvblJlcXVlc3QiABJACgxHZXRJbmZvU3BhbnMSFi5zaGltbWVyR1JQ",
-            "Qy5TdHJpbmdNc2caFi5zaGltbWVyR1JQQy5JbmZvU3BhbnMiABJJChJHZXRJ",
-            "bmZvQWxsU2hpbW1lcnMSFi5zaGltbWVyR1JQQy5TdHJpbmdNc2caGS5zaGlt",
-            "bWVyR1JQQy5TaGltbWVyc0luZm8iABJMChJHZXRFbXVsYXRlZERldmljZXMS",
-            "Fi5zaGltbWVyR1JQQy5TdHJpbmdNc2caHC5zaGltbWVyR1JQQy5FbXVsYXRl",
-            "ZERldmljZXMiABJbChlHZXRCbHVldG9vdGhEZXZpY2VEZXRhaWxzEhYuc2hp",
-            "bW1lckdSUEMuU3RyaW5nTXNnGiQuc2hpbW1lckdSUEMuQmx1ZXRvb3RoRGV2",
-            "aWNlc0RldGFpbHMiAEJCChhjb20uc2hpbW1lcnJlc2VhcmNoLmdycGNCC1No",
-            "aW1tZXJHUlBDqgIYY29tLnNoaW1tZXJyZXNlYXJjaC5ncnBjYgZwcm90bzM="));
+            "aERldmljZXNEZXRhaWxzLkJsdWV0b290aERldmljZURldGFpbHM6AjgBIkQK",
+            "C0RldmljZVN0YXRlEg8KB2NvbVBvcnQYASABKAkSJAoFc3RhdGUYAiABKA4y",
+            "FS5zaGltbWVyR1JQQy5CVF9TVEFURSJTCg5JZWVlODAyMTU0SW5mbxIUCgxy",
+            "YWRpb0NoYW5uZWwYASABKAUSFAoMcmFkaW9Hcm91cElkGAIgASgFEhUKDXJh",
+            "ZGlvRGV2aWNlSWQYAyABKAUiqQIKCUluZm9TcGFucxINCgVzdGF0ZRgBIAEo",
+            "CBIPCgdtZXNzYWdlGAIgASgJEjQKB3NwYW5NYXAYAyADKAsyIy5zaGltbWVy",
+            "R1JQQy5JbmZvU3BhbnMuU3Bhbk1hcEVudHJ5EjMKDmllZWU4MDIxNTRJbmZv",
+            "GAQgASgLMhsuc2hpbW1lckdSUEMuSWVlZTgwMjE1NEluZm8aQAoISW5mb1Nw",
+            "YW4SEAoIdW5pcXVlSWQYASABKAkSDwoHcG9ydEJzbBgCIAEoCRIRCglwb3J0",
+            "Q29tbXMYAyABKAkaTwoMU3Bhbk1hcEVudHJ5EgsKA2tleRgBIAEoCRIuCgV2",
+            "YWx1ZRgCIAEoCzIfLnNoaW1tZXJHUlBDLkluZm9TcGFucy5JbmZvU3BhbjoC",
+            "OAEi+gIKD0VtdWxhdGVkRGV2aWNlcxINCgVzdGF0ZRgBIAEoCBIPCgdtZXNz",
+            "YWdlGAIgASgJEhYKDmlzRW11bGF0b3JTaWRlGAMgASgIElAKEmVtdWxhdGVk",
+            "RGV2aWNlc01hcBgEIAMoCzI0LnNoaW1tZXJHUlBDLkVtdWxhdGVkRGV2aWNl",
+            "cy5FbXVsYXRlZERldmljZXNNYXBFbnRyeRp1Cg5FbXVsYXRlZERldmljZRIQ",
+            "Cgh1bmlxdWVJZBgBIAEoCRIZChFkZXZpY2VUeXBlT3JkaW5hbBgCIAEoBRId",
+            "ChVod0RldmljZUludGVyZmFjZVBhdGgYAyADKAkSFwoPaXNEZXZpY2VFbmFi",
+            "bGVkGAQgASgIGmYKF0VtdWxhdGVkRGV2aWNlc01hcEVudHJ5EgsKA2tleRgB",
+            "IAEoCRI6CgV2YWx1ZRgCIAEoCzIrLnNoaW1tZXJHUlBDLkVtdWxhdGVkRGV2",
+            "aWNlcy5FbXVsYXRlZERldmljZToCOAEqswEKCEJUX1NUQVRFEhAKDERJU0NP",
+            "Tk5FQ1RFRBAAEg4KCkNPTk5FQ1RJTkcQARINCglDT05ORUNURUQQAhINCglT",
+            "VFJFQU1JTkcQAxIbChdTVFJFQU1JTkdfQU5EX1NETE9HR0lORxAEEg0KCVNE",
+            "TE9HR0lORxAFEg8KC0NPTkZJR1VSSU5HEAYSEwoPQ09OTkVDVElPTl9MT1NU",
+            "EAcSFQoRQ09OTkVDVElPTl9GQUlMRUQQCDKaEAoNU2hpbW1lclNlcnZlchJA",
+            "CghTYXlIZWxsbxIZLnNoaW1tZXJHUlBDLkhlbGxvUmVxdWVzdBoXLnNoaW1t",
+            "ZXJHUlBDLkhlbGxvUmVwbHkiABJMCg1HZXREYXRhU3RyZWFtEhouc2hpbW1l",
+            "ckdSUEMuU3RyZWFtUmVxdWVzdBobLnNoaW1tZXJHUlBDLk9iamVjdENsdXN0",
+            "ZXIyIgAwARJKCg5TZW5kRGF0YVN0cmVhbRIbLnNoaW1tZXJHUlBDLk9iamVj",
+            "dENsdXN0ZXIyGhcuc2hpbW1lckdSUEMuSGVsbG9SZXBseSIAKAESTAoOU2Vu",
+            "ZEZpbGVTdHJlYW0SHS5zaGltbWVyR1JQQy5GaWxlQnl0ZVRyYW5zZmVyGhcu",
+            "c2hpbW1lckdSUEMuSGVsbG9SZXBseSIAKAESSwoOQ29ubmVjdFNoaW1tZXIS",
+            "Gy5zaGltbWVyR1JQQy5TaGltbWVyUmVxdWVzdBoaLnNoaW1tZXJHUlBDLkNv",
+            "bW1hbmRTdGF0dXMiABJOChFEaXNjb25uZWN0U2hpbW1lchIbLnNoaW1tZXJH",
+            "UlBDLlNoaW1tZXJSZXF1ZXN0Ghouc2hpbW1lckdSUEMuQ29tbWFuZFN0YXR1",
+            "cyIAEksKDlN0YXJ0U3RyZWFtaW5nEhsuc2hpbW1lckdSUEMuU2hpbW1lclJl",
+            "cXVlc3QaGi5zaGltbWVyR1JQQy5Db21tYW5kU3RhdHVzIgASSgoNU3RvcFN0",
+            "cmVhbWluZxIbLnNoaW1tZXJHUlBDLlNoaW1tZXJSZXF1ZXN0Ghouc2hpbW1l",
+            "ckdSUEMuQ29tbWFuZFN0YXR1cyIAEk0KEENsb3NlQXBwbGljYXRpb24SGy5z",
+            "aGltbWVyR1JQQy5TaGltbWVyUmVxdWVzdBoaLnNoaW1tZXJHUlBDLkNvbW1h",
+            "bmRTdGF0dXMiABJQChVTZXRXb3Jrc3BhY2VEaXJlY3RvcnkSFi5zaGltbWVy",
+            "R1JQQy5TdHJpbmdNc2caHS5zaGltbWVyR1JQQy5PcGVyYXRpb25SZXF1ZXN0",
+            "IgASSQoVR2V0V29ya3NwYWNlRGlyZWN0b3J5EhYuc2hpbW1lckdSUEMuU3Ry",
+            "aW5nTXNnGhYuc2hpbW1lckdSUEMuU3RyaW5nTXNnIgASSwoUR2V0RG9ja2Vk",
+            "U2hpbW1lckluZm8SFi5zaGltbWVyR1JQQy5TdHJpbmdNc2caGS5zaGltbWVy",
+            "R1JQQy5TaGltbWVyc0luZm8iABJJChVHZXRNYWRnZXdpY2tCZXRhVmFsdWUS",
+            "Fi5zaGltbWVyR1JQQy5TdHJpbmdNc2caFi5zaGltbWVyR1JQQy5Eb3VibGVN",
+            "c2ciABJMCgxQYWlyU2hpbW1lcnMSGy5zaGltbWVyR1JQQy5TdHJpbmdBcnJh",
+            "eU1zZxodLnNoaW1tZXJHUlBDLk9wZXJhdGlvblJlcXVlc3QiABJPChRHZXRP",
+            "cGVyYXRpb25Qcm9ncmVzcxIWLnNoaW1tZXJHUlBDLlN0cmluZ01zZxodLnNo",
+            "aW1tZXJHUlBDLk9wZXJhdGlvblJlcXVlc3QiABJYChhJbXBvcnRTZERhdGFG",
+            "cm9tU2hpbW1lcnMSGy5zaGltbWVyR1JQQy5TdHJpbmdBcnJheU1zZxodLnNo",
+            "aW1tZXJHUlBDLk9wZXJhdGlvblJlcXVlc3QiABJOChNQYXJzZVNkRGF0YUZy",
+            "b21QYXRoEhYuc2hpbW1lckdSUEMuU3RyaW5nTXNnGh0uc2hpbW1lckdSUEMu",
+            "T3BlcmF0aW9uUmVxdWVzdCIAElEKEVNjYW5TZERhdGFBbmRDb3B5Ehsuc2hp",
+            "bW1lckdSUEMuU3RyaW5nQXJyYXlNc2caHS5zaGltbWVyR1JQQy5PcGVyYXRp",
+            "b25SZXF1ZXN0IgASTwoPQ2xlYXJTZENhcmREYXRhEhsuc2hpbW1lckdSUEMu",
+            "U3RyaW5nQXJyYXlNc2caHS5zaGltbWVyR1JQQy5PcGVyYXRpb25SZXF1ZXN0",
+            "IgASWAoYRG9ja0FjY2Vzc1Nsb3RXaXRoU2RDYXJkEhsuc2hpbW1lckdSUEMu",
+            "U3RyaW5nQXJyYXlNc2caHS5zaGltbWVyR1JQQy5PcGVyYXRpb25SZXF1ZXN0",
+            "IgASVAoURG9ja1Jlc3RvcmVBdXRvVGFza3MSGy5zaGltbWVyR1JQQy5TdHJp",
+            "bmdBcnJheU1zZxodLnNoaW1tZXJHUlBDLk9wZXJhdGlvblJlcXVlc3QiABJA",
+            "CgxHZXRJbmZvU3BhbnMSFi5zaGltbWVyR1JQQy5TdHJpbmdNc2caFi5zaGlt",
+            "bWVyR1JQQy5JbmZvU3BhbnMiABJJChJHZXRJbmZvQWxsU2hpbW1lcnMSFi5z",
+            "aGltbWVyR1JQQy5TdHJpbmdNc2caGS5zaGltbWVyR1JQQy5TaGltbWVyc0lu",
+            "Zm8iABJMChJHZXRFbXVsYXRlZERldmljZXMSFi5zaGltbWVyR1JQQy5TdHJp",
+            "bmdNc2caHC5zaGltbWVyR1JQQy5FbXVsYXRlZERldmljZXMiABJbChlHZXRC",
+            "bHVldG9vdGhEZXZpY2VEZXRhaWxzEhYuc2hpbW1lckdSUEMuU3RyaW5nTXNn",
+            "GiQuc2hpbW1lckdSUEMuQmx1ZXRvb3RoRGV2aWNlc0RldGFpbHMiABJQChRH",
+            "ZXREZXZpY2VTdGF0ZVN0cmVhbRIaLnNoaW1tZXJHUlBDLlN0cmVhbVJlcXVl",
+            "c3QaGC5zaGltbWVyR1JQQy5EZXZpY2VTdGF0ZSIAMAFCQgoYY29tLnNoaW1t",
+            "ZXJyZXNlYXJjaC5ncnBjQgtTaGltbWVyR1JQQ6oCGGNvbS5zaGltbWVycmVz",
+            "ZWFyY2guZ3JwY2IGcHJvdG8z"));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { },
-          new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
+          new pbr::GeneratedClrTypeInfo(new[] {typeof(global::com.shimmerresearch.grpc.BT_STATE), }, null, new pbr::GeneratedClrTypeInfo[] {
             new pbr::GeneratedClrTypeInfo(typeof(global::com.shimmerresearch.grpc.FileByteTransfer), global::com.shimmerresearch.grpc.FileByteTransfer.Parser, new[]{ "Name", "Data", "Endoffile" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::com.shimmerresearch.grpc.CommandStatus), global::com.shimmerresearch.grpc.CommandStatus.Parser, new[]{ "Status" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::com.shimmerresearch.grpc.HelloRequest), global::com.shimmerresearch.grpc.HelloRequest.Parser, new[]{ "Name" }, null, null, null, null),
@@ -160,6 +168,7 @@ namespace com.shimmerresearch.grpc {
             null, }),
             new pbr::GeneratedClrTypeInfo(typeof(global::com.shimmerresearch.grpc.BluetoothDevicesDetails), global::com.shimmerresearch.grpc.BluetoothDevicesDetails.Parser, new[]{ "State", "Message", "DeviceMap" }, null, null, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::com.shimmerresearch.grpc.BluetoothDevicesDetails.Types.BluetoothDeviceDetails), global::com.shimmerresearch.grpc.BluetoothDevicesDetails.Types.BluetoothDeviceDetails.Parser, new[]{ "ComPort", "Name", "MacId", "DeviceType", "LastConnectionState" }, null, null, null, null),
             null, }),
+            new pbr::GeneratedClrTypeInfo(typeof(global::com.shimmerresearch.grpc.DeviceState), global::com.shimmerresearch.grpc.DeviceState.Parser, new[]{ "ComPort", "State" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::com.shimmerresearch.grpc.Ieee802154Info), global::com.shimmerresearch.grpc.Ieee802154Info.Parser, new[]{ "RadioChannel", "RadioGroupId", "RadioDeviceId" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::com.shimmerresearch.grpc.InfoSpans), global::com.shimmerresearch.grpc.InfoSpans.Parser, new[]{ "State", "Message", "SpanMap", "Ieee802154Info" }, null, null, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::com.shimmerresearch.grpc.InfoSpans.Types.InfoSpan), global::com.shimmerresearch.grpc.InfoSpans.Types.InfoSpan.Parser, new[]{ "UniqueId", "PortBsl", "PortComms" }, null, null, null, null),
             null, }),
@@ -170,6 +179,21 @@ namespace com.shimmerresearch.grpc {
     #endregion
 
   }
+  #region Enums
+  public enum BT_STATE {
+    [pbr::OriginalName("DISCONNECTED")] Disconnected = 0,
+    [pbr::OriginalName("CONNECTING")] Connecting = 1,
+    [pbr::OriginalName("CONNECTED")] Connected = 2,
+    [pbr::OriginalName("STREAMING")] Streaming = 3,
+    [pbr::OriginalName("STREAMING_AND_SDLOGGING")] StreamingAndSdlogging = 4,
+    [pbr::OriginalName("SDLOGGING")] Sdlogging = 5,
+    [pbr::OriginalName("CONFIGURING")] Configuring = 6,
+    [pbr::OriginalName("CONNECTION_LOST")] ConnectionLost = 7,
+    [pbr::OriginalName("CONNECTION_FAILED")] ConnectionFailed = 8,
+  }
+
+  #endregion
+
   #region Messages
   public sealed partial class FileByteTransfer : pb::IMessage<FileByteTransfer>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
@@ -4723,6 +4747,214 @@ namespace com.shimmerresearch.grpc {
 
   }
 
+  public sealed partial class DeviceState : pb::IMessage<DeviceState>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
+    private static readonly pb::MessageParser<DeviceState> _parser = new pb::MessageParser<DeviceState>(() => new DeviceState());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<DeviceState> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::com.shimmerresearch.grpc.ShimmerGrpcAndOJCReflection.Descriptor.MessageTypes[14]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public DeviceState() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public DeviceState(DeviceState other) : this() {
+      comPort_ = other.comPort_;
+      state_ = other.state_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public DeviceState Clone() {
+      return new DeviceState(this);
+    }
+
+    /// <summary>Field number for the "comPort" field.</summary>
+    public const int ComPortFieldNumber = 1;
+    private string comPort_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string ComPort {
+      get { return comPort_; }
+      set {
+        comPort_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "state" field.</summary>
+    public const int StateFieldNumber = 2;
+    private global::com.shimmerresearch.grpc.BT_STATE state_ = global::com.shimmerresearch.grpc.BT_STATE.Disconnected;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::com.shimmerresearch.grpc.BT_STATE State {
+      get { return state_; }
+      set {
+        state_ = value;
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as DeviceState);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(DeviceState other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (ComPort != other.ComPort) return false;
+      if (State != other.State) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (ComPort.Length != 0) hash ^= ComPort.GetHashCode();
+      if (State != global::com.shimmerresearch.grpc.BT_STATE.Disconnected) hash ^= State.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
+      if (ComPort.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(ComPort);
+      }
+      if (State != global::com.shimmerresearch.grpc.BT_STATE.Disconnected) {
+        output.WriteRawTag(16);
+        output.WriteEnum((int) State);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (ComPort.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(ComPort);
+      }
+      if (State != global::com.shimmerresearch.grpc.BT_STATE.Disconnected) {
+        output.WriteRawTag(16);
+        output.WriteEnum((int) State);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      if (ComPort.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(ComPort);
+      }
+      if (State != global::com.shimmerresearch.grpc.BT_STATE.Disconnected) {
+        size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) State);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(DeviceState other) {
+      if (other == null) {
+        return;
+      }
+      if (other.ComPort.Length != 0) {
+        ComPort = other.ComPort;
+      }
+      if (other.State != global::com.shimmerresearch.grpc.BT_STATE.Disconnected) {
+        State = other.State;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            ComPort = input.ReadString();
+            break;
+          }
+          case 16: {
+            State = (global::com.shimmerresearch.grpc.BT_STATE) input.ReadEnum();
+            break;
+          }
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+          case 10: {
+            ComPort = input.ReadString();
+            break;
+          }
+          case 16: {
+            State = (global::com.shimmerresearch.grpc.BT_STATE) input.ReadEnum();
+            break;
+          }
+        }
+      }
+    }
+    #endif
+
+  }
+
   public sealed partial class Ieee802154Info : pb::IMessage<Ieee802154Info>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -4735,7 +4967,7 @@ namespace com.shimmerresearch.grpc {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::com.shimmerresearch.grpc.ShimmerGrpcAndOJCReflection.Descriptor.MessageTypes[14]; }
+      get { return global::com.shimmerresearch.grpc.ShimmerGrpcAndOJCReflection.Descriptor.MessageTypes[15]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -4979,7 +5211,7 @@ namespace com.shimmerresearch.grpc {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::com.shimmerresearch.grpc.ShimmerGrpcAndOJCReflection.Descriptor.MessageTypes[15]; }
+      get { return global::com.shimmerresearch.grpc.ShimmerGrpcAndOJCReflection.Descriptor.MessageTypes[16]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -5508,7 +5740,7 @@ namespace com.shimmerresearch.grpc {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::com.shimmerresearch.grpc.ShimmerGrpcAndOJCReflection.Descriptor.MessageTypes[16]; }
+      get { return global::com.shimmerresearch.grpc.ShimmerGrpcAndOJCReflection.Descriptor.MessageTypes[17]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]

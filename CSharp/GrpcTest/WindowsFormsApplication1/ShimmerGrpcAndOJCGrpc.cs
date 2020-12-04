@@ -63,6 +63,7 @@ namespace com.shimmerresearch.grpc {
     static readonly grpc::Marshaller<global::com.shimmerresearch.grpc.InfoSpans> __Marshaller_shimmerGRPC_InfoSpans = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::com.shimmerresearch.grpc.InfoSpans.Parser));
     static readonly grpc::Marshaller<global::com.shimmerresearch.grpc.EmulatedDevices> __Marshaller_shimmerGRPC_EmulatedDevices = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::com.shimmerresearch.grpc.EmulatedDevices.Parser));
     static readonly grpc::Marshaller<global::com.shimmerresearch.grpc.BluetoothDevicesDetails> __Marshaller_shimmerGRPC_BluetoothDevicesDetails = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::com.shimmerresearch.grpc.BluetoothDevicesDetails.Parser));
+    static readonly grpc::Marshaller<global::com.shimmerresearch.grpc.DeviceState> __Marshaller_shimmerGRPC_DeviceState = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::com.shimmerresearch.grpc.DeviceState.Parser));
 
     static readonly grpc::Method<global::com.shimmerresearch.grpc.HelloRequest, global::com.shimmerresearch.grpc.HelloReply> __Method_SayHello = new grpc::Method<global::com.shimmerresearch.grpc.HelloRequest, global::com.shimmerresearch.grpc.HelloReply>(
         grpc::MethodType.Unary,
@@ -239,6 +240,13 @@ namespace com.shimmerresearch.grpc {
         __Marshaller_shimmerGRPC_StringMsg,
         __Marshaller_shimmerGRPC_BluetoothDevicesDetails);
 
+    static readonly grpc::Method<global::com.shimmerresearch.grpc.StreamRequest, global::com.shimmerresearch.grpc.DeviceState> __Method_GetDeviceStateStream = new grpc::Method<global::com.shimmerresearch.grpc.StreamRequest, global::com.shimmerresearch.grpc.DeviceState>(
+        grpc::MethodType.ServerStreaming,
+        __ServiceName,
+        "GetDeviceStateStream",
+        __Marshaller_shimmerGRPC_StreamRequest,
+        __Marshaller_shimmerGRPC_DeviceState);
+
     /// <summary>Service descriptor</summary>
     public static global::Google.Protobuf.Reflection.ServiceDescriptor Descriptor
     {
@@ -407,6 +415,11 @@ namespace com.shimmerresearch.grpc {
       /// <param name="context">The context of the server-side call handler being invoked.</param>
       /// <returns>The response to send back to the client (wrapped by a task).</returns>
       public virtual global::System.Threading.Tasks.Task<global::com.shimmerresearch.grpc.BluetoothDevicesDetails> GetBluetoothDeviceDetails(global::com.shimmerresearch.grpc.StringMsg request, grpc::ServerCallContext context)
+      {
+        throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
+      }
+
+      public virtual global::System.Threading.Tasks.Task GetDeviceStateStream(global::com.shimmerresearch.grpc.StreamRequest request, grpc::IServerStreamWriter<global::com.shimmerresearch.grpc.DeviceState> responseStream, grpc::ServerCallContext context)
       {
         throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
       }
@@ -950,6 +963,14 @@ namespace com.shimmerresearch.grpc {
       {
         return CallInvoker.AsyncUnaryCall(__Method_GetBluetoothDeviceDetails, null, options, request);
       }
+      public virtual grpc::AsyncServerStreamingCall<global::com.shimmerresearch.grpc.DeviceState> GetDeviceStateStream(global::com.shimmerresearch.grpc.StreamRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return GetDeviceStateStream(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      public virtual grpc::AsyncServerStreamingCall<global::com.shimmerresearch.grpc.DeviceState> GetDeviceStateStream(global::com.shimmerresearch.grpc.StreamRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.AsyncServerStreamingCall(__Method_GetDeviceStateStream, null, options, request);
+      }
       /// <summary>Creates a new instance of client from given <c>ClientBaseConfiguration</c>.</summary>
       protected override ShimmerServerClient NewInstance(ClientBaseConfiguration configuration)
       {
@@ -986,7 +1007,8 @@ namespace com.shimmerresearch.grpc {
           .AddMethod(__Method_GetInfoSpans, serviceImpl.GetInfoSpans)
           .AddMethod(__Method_GetInfoAllShimmers, serviceImpl.GetInfoAllShimmers)
           .AddMethod(__Method_GetEmulatedDevices, serviceImpl.GetEmulatedDevices)
-          .AddMethod(__Method_GetBluetoothDeviceDetails, serviceImpl.GetBluetoothDeviceDetails).Build();
+          .AddMethod(__Method_GetBluetoothDeviceDetails, serviceImpl.GetBluetoothDeviceDetails)
+          .AddMethod(__Method_GetDeviceStateStream, serviceImpl.GetDeviceStateStream).Build();
     }
 
     /// <summary>Register service method with a service binder with or without implementation. Useful when customizing the  service binding logic.
@@ -1020,6 +1042,7 @@ namespace com.shimmerresearch.grpc {
       serviceBinder.AddMethod(__Method_GetInfoAllShimmers, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::com.shimmerresearch.grpc.StringMsg, global::com.shimmerresearch.grpc.ShimmersInfo>(serviceImpl.GetInfoAllShimmers));
       serviceBinder.AddMethod(__Method_GetEmulatedDevices, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::com.shimmerresearch.grpc.StringMsg, global::com.shimmerresearch.grpc.EmulatedDevices>(serviceImpl.GetEmulatedDevices));
       serviceBinder.AddMethod(__Method_GetBluetoothDeviceDetails, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::com.shimmerresearch.grpc.StringMsg, global::com.shimmerresearch.grpc.BluetoothDevicesDetails>(serviceImpl.GetBluetoothDeviceDetails));
+      serviceBinder.AddMethod(__Method_GetDeviceStateStream, serviceImpl == null ? null : new grpc::ServerStreamingServerMethod<global::com.shimmerresearch.grpc.StreamRequest, global::com.shimmerresearch.grpc.DeviceState>(serviceImpl.GetDeviceStateStream));
     }
 
   }
